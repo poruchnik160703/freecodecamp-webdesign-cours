@@ -28,8 +28,8 @@ A basic travel agency landing page.
 
 ### 3. Audio and Video Player
 An HTML page demonstrating media elements.
-- <video> with controls
-- <audio> with loop
+- video with controls
+- audio with loop
 - Semantic sections and footer
 
 ## Notes
