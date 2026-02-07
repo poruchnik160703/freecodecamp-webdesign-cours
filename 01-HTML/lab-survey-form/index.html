@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Feedback Survey</title>
+</head>
+
+<body>
+
+  <!-- Main content -->
+  <main>
+
+    <!-- Page title -->
+    <h1 id="title">Student Feedback Survey</h1>
+
+    <!-- Description -->
+    <p id="description">
+      Please fill out this survey to help us improve our educational programs.
+    </p>
+
+    <!-- Survey form -->
+    <form id="survey-form">
+
+      <!-- Name -->
+      <label id="name-label" for="name">Name</label><br>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      ><br><br>
+
+      <!-- Email -->
+      <label id="email-label" for="email">Email</label><br>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email address"
+        required
+      ><br><br>
+
+      <!-- Age -->
+      <label id="number-label" for="number">Age</label><br>
+      <input
+        type="number"
+        id="number"
+        name="age"
+        min="10"
+        max="100"
+        placeholder="Enter your age"
+      ><br><br>
+
+      <!-- Dropdown -->
+      <label for="dropdown">Your role</label><br>
+      <select id="dropdown" name="role">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+      </select><br><br>
+
+      <!-- Radio buttons -->
+      <p>Would you recommend us?</p>
+      <input type="radio" name="recommend" value="yes"> Yes<br>
+      <input type="radio" name="recommend" value="no"> No<br><br>
+
+      <!-- Checkboxes -->
+      <p>What do you like? (choose all that apply)</p>
+      <input type="checkbox" value="courses"> Courses<br>
+      <input type="checkbox" value="teachers"> Teachers<br>
+      <input type="checkbox" value="community"> Community<br><br>
+
+      <!-- Textarea -->
+      <p>Additional comments</p>
+      <textarea
+        rows="4"
+        cols="40"
+        placeholder="Write your comments here..."
+      ></textarea><br><br>
+
+      <!-- Submit button -->
+      <button id="submit" type="submit">Submit</button>
+
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      Created by Karolina as part of an HTML learning project (freeCodeCamp).
+    </p>
+  </footer>
+
+</body>
+</html>
